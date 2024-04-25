@@ -20,9 +20,9 @@ if page == pages[0] :
   if st.checkbox("Show NA") :
     st.dataframe(df.isna().sum())
 
-  st.write("### Test NBA big file loading")
-  df1=pd.read_csv("NBA Shot Locations 1997 - 2020.csv")
-  st.dataframe(df1.head(5))
+  #st.write("### Test NBA big file loading")
+  #df1=pd.read_csv("NBA Shot Locations 1997 - 2020.csv")
+  #st.dataframe(df1.head(5))
 
 if page == pages[1] : 
   st.write("### DataVizualization")
